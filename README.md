@@ -2,12 +2,19 @@
 Built a financial fraud detection system using Python and RandomForestClassifier. Loaded and cleaned the dataset, prepared features, scaled values, and split data into train/test sets. Evaluated the model through 5-fold cross-validation, classification report, confusion matrix, and feature importance analysis to interpret key fraud indicators
 # importing required libraries
 import pandas as pd 
+
 import numpy as np
+
 from sklearn.model_selection import train_test_split, cross_val_score
+
 from sklearn.preprocessing import StandardScaler
+
 from sklearn.ensemble import RandomForestClassifier
+
 from sklearn.metrics import confusion_matrix, classification_report, roc_curve,auc
+
 import seaborn as sns 
+
 import matplotlib.pyplot as plt
 
 
